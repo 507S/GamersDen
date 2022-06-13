@@ -1,0 +1,30 @@
+.form-input {
+  position: relative;
+}
+
+.form-input input {
+  width: 100%;
+  margin-bottom: 20px;
+  height: 40px;
+  border: 2px solid #fff;
+  border-radius: 20px;
+  outline: none;
+  /* background: transparent; */
+  padding-left: 45px;
+}
+
+.form-input span {
+  position: absolute;
+  top: 8px;
+  padding-left: 20px;
+  color: black;
+}
+
+.form-input input:focus,
+.form-input input:valid {
+  border: 2px solid black;
+}
+
+.form-input input:focus::placeholder {
+  color: black;
+}
