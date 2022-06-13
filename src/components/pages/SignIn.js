@@ -38,7 +38,7 @@ export default function SignIn() {
            <div className="row mb-2">
            <div className="col-6 d-flex align-items-center">
            <div className="custom-control custom-checkbox">
-            <CheckBox  id = "cb1" className="custom-control-input" text={"Remember me"} />
+            <CheckBox  id = "cb1"  text={"Remember me"} />
            </div>
            </div>
            <div className="col-6 text-right text-sm">
@@ -71,9 +71,9 @@ export default function SignIn() {
                   </li>
                 </ul>
               </div>
-              <div className="text-center">
+              <div className="text-center" >
                 Don't have an account?
-                <a className="register-link" href="register.html"> Register here</a>
+                <a className="register-link" href="register.html">&nbsp; Register here</a>
               </div>
         </Form>
        </div>
