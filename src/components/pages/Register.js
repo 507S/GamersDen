@@ -1,24 +1,31 @@
-import Button from "../../components/Button";
-import CheckBox from "../../components/CheckBox";
-import Form from "../../components/Form";
-import LoginLogo from "../../components/LoginLogo";
-import LoginOption from "../../components/LoginOption";
-import TextInput from "../../components/TextInput";
 import classes from "../../designs/FormInput.module.css";
-import "../../designs/SignInStyle.css";
-export default function SignIn() {
+import "../../designs/RegistrationStyle.css";
+import Button from "../Button";
+import Form from "../Form";
+import LoginOption from "../LoginOption";
+import LoginLogo from "../RegistrationLogo";
+import TextInput from "../TextInput";
+export default function Register() {
   return (
     
     <div className="infinity-container">
       <LoginLogo />
       <div className="infinity-form-block">
       <div className="infinity-click-box text-center">
-          Login into your account
+          Create your account
        </div>
        <div className="infinity-fold">
        <div className="infinity-form">
         <Form className = "form-box">
         <div className={classes["form-input"]}>
+
+        <TextInput
+              labelIcon="fa fa-user"
+              type="text"
+              name ="username"
+              placeholder="Username"
+              tabindex="10"
+          />
         <TextInput
               labelIcon="fa fa-envelope"
               type="email"
@@ -39,18 +46,18 @@ export default function SignIn() {
            <div className="row mb-2">
            <div className="col-6 d-flex align-items-center">
            <div className="custom-control custom-checkbox">
-            <CheckBox  id = "cb1"  text={"Remember me"} />
+            {/* <CheckBox  id = "cb1"  text={"Remember me"} /> */}
            </div>
            </div>
            <div className="col-6 text-right text-sm">
-                  <a href="forget.html" className="forget-link">Forgot password?</a>
+                  {/* <a href="forget.html" className="forget-link">Forgot password?</a> */}
               </div>
            </div>
            <div className="col-12 px-0 text-right">
-            <Button type ="submit" text="Login" /> 
+            <Button type ="submit" text="Register" /> 
            </div>
            <div className="text-center text-sm">
-           <LoginOption text="or login with" />
+           <LoginOption text="or register with" />
             </div>
             <div className="infinity-social-btn text-center">
                 <ul className="text-center">
@@ -73,8 +80,8 @@ export default function SignIn() {
                 </ul>
               </div>
               <div className="text-center" >
-                Don't have an account?
-                <a className="register-link" href="register.html">&nbsp; Register here</a>
+                Already have an account?
+                <a className="register-link" href="register.html">&nbsp; Login here</a>
               </div>
         </Form>
        </div>

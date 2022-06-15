@@ -9,7 +9,8 @@
   border: 2px solid #fff;
   border-radius: 20px;
   outline: none;
-  /* background: transparent; */
+  background: transparent;
+  /* background: rgba(26, 25, 25, 0.984); */
   padding-left: 45px;
 }
 
