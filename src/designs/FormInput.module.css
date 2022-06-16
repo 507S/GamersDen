@@ -10,6 +10,7 @@
   border-radius: 20px;
   outline: none;
   background: transparent;
+
   /* background: rgba(26, 25, 25, 0.984); */
   padding-left: 45px;
 }
@@ -18,14 +19,22 @@
   position: absolute;
   top: 8px;
   padding-left: 20px;
-  color: black;
+  color: white;
 }
 
 .form-input input:focus,
 .form-input input:valid {
   border: 2px solid black;
+  /* font-weight: 800; */
+  color: #fff;
 }
 
 .form-input input:focus::placeholder {
-  color: black;
+  color: white;
+  /* font-size: 300px; */
+  /* font-weight: bold; */
+}
+::placeholder {
+  color: white;
+  /* opacity: 1; Firefox */
 }

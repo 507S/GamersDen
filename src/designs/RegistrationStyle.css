@@ -5,12 +5,9 @@
   justify-content: center;
   min-height: 100vh;
   color: #000;
-  /* background: url("../icons/c5") center no-repeat; */
-  background-image: linear-gradient(
-      rgba(152, 140, 140, 0.5),
-      rgba(0, 0, 0, 0.5)
-    ),
-    url("../icons/c5.jpg");
+  /* background: url("../icons/c12.jpg") center no-repeat; */
+  background-image: linear-gradient(rgba(83, 79, 79, 0.5), rgba(0, 0, 0, 0.5)),
+    /* url("../icons/c9.jpg"); */ url("../icons/c12.jpg");
   background-size: cover;
 }
 
