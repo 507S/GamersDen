@@ -3,8 +3,8 @@ import "../../designs/LogInStyle.css";
 import Button from "../Button";
 import CheckBox from "../CheckBox";
 import Form from "../Form";
+import LoginAndRegisterOption from "../LoginAndRegisterOption";
 import LoginLogo from "../LoginLogo";
-import LoginOption from "../LoginOption";
 import TextInput from "../TextInput";
 export default function LogIn() {
   return (
@@ -50,7 +50,7 @@ export default function LogIn() {
             <Button type ="submit" text="Login" /> 
            </div>
            <div className="text-center text-sm">
-           <LoginOption text="or login with" />
+           <LoginAndRegisterOption text="or login with" />
             </div>
             <div className="infinity-social-btn text-center">
                 <ul className="text-center">
