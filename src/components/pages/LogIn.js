@@ -1,12 +1,12 @@
-import Button from "../../components/Button";
-import CheckBox from "../../components/CheckBox";
-import Form from "../../components/Form";
-import LoginLogo from "../../components/LoginLogo";
-import LoginOption from "../../components/LoginOption";
-import TextInput from "../../components/TextInput";
 import classes from "../../designs/FormInput.module.css";
-import "../../designs/SignInStyle.css";
-export default function SignIn() {
+import "../../designs/LogInStyle.css";
+import Button from "../Button";
+import CheckBox from "../CheckBox";
+import Form from "../Form";
+import LoginLogo from "../LoginLogo";
+import LoginOption from "../LoginOption";
+import TextInput from "../TextInput";
+export default function LogIn() {
   return (
     
     <div className="infinity-container">
@@ -74,7 +74,7 @@ export default function SignIn() {
               </div>
               <div className="text-center" >
                 Don't have an account?
-                <a className="register-link" href="register.html">&nbsp; Register here</a>
+                <a className="register-link" href="register.html">&nbsp;Register here</a>
               </div>
         </Form>
        </div>

@@ -83,7 +83,7 @@
 .forget-link:hover,
 .login-link:hover,
 .register-link:hover {
-  color: black;
+  color: gray;
 }
 
 .infinity-social-btn ul {
